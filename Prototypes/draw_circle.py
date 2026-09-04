@@ -1,16 +1,17 @@
 #Prototype creates a circle and then a sphere which will be used to model the bodies
 import pygame
 import sys
-import math
 
 pygame.init()
 
 #Set up the display window with width and height dimensions
-WIDTH = 800
-HEIGHT = 600
+WIDTH = 1280
+HEIGHT = 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("body_creation.py")
 
 WHITE = (255, 255, 255)
+
 
 #Window will run as long as active is True, and when close button pressed window closed
 active = True

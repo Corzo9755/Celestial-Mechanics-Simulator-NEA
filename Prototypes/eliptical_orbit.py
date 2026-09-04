@@ -1,3 +1,4 @@
+#SUCCESS orbiting circle in an elliptical orbit
 import pygame 
 import sys
 import math
@@ -9,7 +10,7 @@ WHITE = (255, 255, 255)
 
 
 #Set up the display window with width and height dimensions
-WIDTH = 1200
+WIDTH = 1280
 HEIGHT = 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("orbit.py")
